@@ -1,19 +1,19 @@
 {
-  "name": "arvix_backend",
+  "name": "arvix",
   "version": "1.0.0",
-  "description": "",
+  "description": "ARVIX IA - Assistente inteligente com suporte a texto e imagens",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "author": "Isabelle Pereira",
+  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.6",
-    "dotenv": "^17.4.0",
-    "express": "^5.2.1"
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
   }
 }
