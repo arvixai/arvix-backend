@@ -59,7 +59,7 @@ app.post('/chat', async (req, res) => {
         }
 
         if (!data.choices || data.choices.length === 0) {
-            console.error('Sem choices:', JSON.stringify(data))\
+            console.error('Sem choices:', JSON.stringify(data))
             return res.status(500).json({ error: 'Resposta inválida da IA.' })
         }
 
